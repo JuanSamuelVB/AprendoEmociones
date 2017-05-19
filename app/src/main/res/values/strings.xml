@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Aprendo Emociones</string>
+
+    <string name="play">Jugar</string>
+    <string name="title_activity_menu">Menú</string>
+</resources>
