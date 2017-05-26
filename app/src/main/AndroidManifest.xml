@@ -25,11 +25,41 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="tectijuana.aprendoemociones.MainActivity" />
         </activity>
-        <activity android:name=".LevelOptionsActivity" />
-        <activity android:name=".DiscoverBeginnerActivity" />
-        <activity android:name=".DiscoveryAdvancedActivity" />
-        <activity android:name=".DiscoverHappyActivity" />
-        <activity android:name=".DiscoverAngryActivity"></activity>
+        <activity
+            android:name=".LevelOptionsActivity"
+            android:label="@string/discover"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".DiscoverBeginnerActivity"
+            android:label="@string/discover"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".DiscoveryAdvancedActivity"
+            android:label="@string/discover"
+            android:parentActivityName=".LevelOptionsActivity" />
+        <activity
+            android:name=".DiscoverHappyActivity"
+            android:label="@string/happy"
+            android:parentActivityName=".DiscoverBeginnerActivity" />
+        <activity
+            android:name=".DiscoverAngryActivity"
+            android:label="@string/angry"
+            android:parentActivityName=".DiscoverBeginnerActivity" />
+        <activity
+            android:name=".GuessLevelOptionsActivity"
+            android:label="@string/guess"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".GuessBeginnerActivity"
+            android:label="@string/guess"
+            android:parentActivityName=".MenuActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/config"
+            android:parentActivityName=".MenuActivity" />
+        <activity android:name=".StatsActivity"
+            android:label="@string/stats"
+            android:parentActivityName=".SettingsActivity" />
     </application>
 
 </manifest>

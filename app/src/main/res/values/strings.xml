@@ -3,4 +3,11 @@
 
     <string name="play">Jugar</string>
     <string name="title_activity_menu">Menú</string>
+    <string name="discover">Conoce</string>
+    <string name="happy">Feliz</string>
+    <string name="angry">Enojado</string>
+    <string name="guess">Adivinanzas</string>
+    <string name="slide">Desliza</string>
+    <string name="config">Configuración</string>
+    <string name="stats">Estadísticas</string>
 </resources>
